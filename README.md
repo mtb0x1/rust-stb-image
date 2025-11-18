@@ -4,13 +4,14 @@ Safe Rust bindings for the excellent [stb_image](https://github.com/nothings/stb
 
 ## Overview
 
-This crate offers a Rust interface to stb_image v2.28, supporting popular image formats including JPEG, PNG, BMP, GIF, and more. It's designed for performance and simplicity, making it ideal for applications that need reliable image loading without heavy dependencies.
+This crate offers a Rust interface to stb_image v2.30, supporting popular image formats including JPEG, PNG, BMP, GIF, and more. It's designed for performance and simplicity, making it ideal for applications that need reliable image loading without any dependencies.
+Except for compile time (bindgen and cc).
 
 ## Features
 
-- **Multiple formats**: JPEG, PNG, BMP, GIF, TGA, PSD, PIC, PNM (and more)
+- **Multiple formats**: JPEG, PNG, BMP, (GIF, TGA, PSD, PIC PNM too maybe, who knows ?)
 - **HDR support**: Load high dynamic range images
-- **Memory-safe**: Rust wrapper with proper memory management
+- **Memory-safe**: Rust wrapper with proper memory management (hum safe'ish more than safe!)
 - **No external dependencies**: Pure Rust bindings to C library
 - **Flexible loading**: From files or memory buffers
 
