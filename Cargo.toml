@@ -1,0 +1,12 @@
+[package]
+name = "stb_image"
+version = "2.30.0" # stb_image v2.30
+authors = ["mtb0x1"]
+description = "Bindings to the stb image encoding/decoding library."
+keywords = ["image", "jpeg", "png", "bmp", "gif"]
+build = "build.rs"
+edition = "2024"
+
+[build-dependencies]
+bindgen = "0.72.1"
+cc = "1.2.46"
