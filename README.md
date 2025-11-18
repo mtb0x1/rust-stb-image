@@ -20,7 +20,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-stb_image = "0.3.0"
+stb_image = "2.30.0"
 ```
 
 ## Usage
